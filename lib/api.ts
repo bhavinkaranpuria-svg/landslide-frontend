@@ -2,7 +2,7 @@ import type { District } from "./types"
 
 // Set NEXT_PUBLIC_API_URL in .env.local once the backend is deployed.
 // Falls back to your local backend for development.
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000"
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://landslide-backend-sttk.onrender.com"
 
 /**
  * Fetches live districts from the backend. Returns null on any failure
